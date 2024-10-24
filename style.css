@@ -37,7 +37,7 @@ header {
 
 /* Phần Hero */
 .hero {
-    background-image: url('https://i.ibb.co/GJcQTbc/Untitled-design-37.png');
+    background-image: url('./assets/img/background.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -57,7 +57,7 @@ header {
 }
 
 .rainbow-text {
-    background: linear-gradient(to right, #98fb98, #32cd32, #228b22);
+    background: linear-gradient(to right, #b6ff25, #fff, #b4f816);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -521,7 +521,7 @@ nav ul {
 }
 
 nav ul li {
-    --c: rgb(19, 235, 91);
+    --c: rgb(40, 173, 25);
     color: var(--c);
     font-size: 16px;
     border: 0.3em solid var(--c);
@@ -559,7 +559,7 @@ nav ul li span {
 }
 
 nav ul li:hover {
-    color: black;
+    color: rgb(6, 49, 2);
 }
 
 nav ul li:hover span {
@@ -681,3 +681,8 @@ nav ul li span:nth-child(4) {
 .button:hover .button__vertical {
     transform: scaleY(0);
 }
+
+
+
+
+/*  */
